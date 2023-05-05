@@ -12,7 +12,7 @@ console.log(`
 `);
 
 const server = http.createServer();
-const url = "https://zoro.to";
+const url = "https://skribbl.io/";
 const PORT = process.env.PORT || 8080;
 
 server.on('request', async (req, res) => {
